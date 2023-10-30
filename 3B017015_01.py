@@ -1,4 +1,4 @@
-n = eval(input("請出入金字塔高度："))
+n = eval(input("請輸入金字塔高度："))
 for i in range(1, n+1, 2):
     """
     range (1 , n+1 , 2 ) 

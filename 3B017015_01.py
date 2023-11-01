@@ -1,9 +1,9 @@
 n = eval(input("請輸入金字塔高度："))
-for i in range(1, n+1, 2):
+for i in range(1, n + 1, 2):
     """
-    range (1 , n+1 , 2 ) 
-    if n = 5 then the number will be (1,6,2) 
-    it means  
+    range (1 , n+1 , 2 )
+    if n = 5 then the number will be (1,6,2)
+    it means
     3 (1+2)
     5(3+2)
     7(5+2)
@@ -19,13 +19,13 @@ for i in range(1, n+1, 2):
     以此類推
     """
 
-for i in range(n-2, 0, -2):
+for i in range(n - 2, 0, -2):
     """
-    range (n-2 , 0 , -2 ) 
-    if n = 5 then the number will be (3,0,-2) 
-    it means  
+    range (n-2 , 0 , -2 )
+    if n = 5 then the number will be (3,0,-2)
+    it means
     1 (3-2)
-    -1(1-2) 
+    -1(1-2)
     so the number -1 is greater Less than 0 so the -1 won't be export
     So answer is 3,5
     """
@@ -39,4 +39,3 @@ for i in range(n-2, 0, -2):
     stage 3 print("." * ((9 - 3) // 2) + "*" * i) it will print ...***
     以此類推
     """
-    

@@ -10,7 +10,7 @@ student["finfo"] = float(input("請輸入您的電腦成績："))
 
 # 計算總分和平均分
 total_score = student["fchina"] + student["fmath"] + student["finfo"]
-  # 四捨五入
+# 四捨五入
 total_score_round = round(total_score)
 average_score = round(total_score / 3, 2)
 
